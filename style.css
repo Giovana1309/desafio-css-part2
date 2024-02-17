@@ -1,0 +1,272 @@
+* {
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    margin-left: 300px;
+    height: 40px;
+    margin-top: 40px;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.cabeça {
+    font-size: 30px;
+    align-items: center;
+    color: rgb(5, 5, 5)
+}
+
+
+
+.menu {
+
+    width: 250px;
+    background-color: #7209b7;
+    display: flex;
+    height: 800px;
+    margin-left: 0px;
+
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(253, 253, 253);
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+
+ul {
+    margin-top: 170px;
+    margin-left: -145px;
+    padding: 0;
+
+
+
+}
+
+ul li {
+
+    display: block;
+    color: rgb(253, 253, 253);
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+
+
+}
+
+
+
+.whatsapp {
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 660px;
+
+}
+
+.tw {
+    height: 40px;
+    display: inline-block;
+}
+
+.insta {
+    height: 40px;
+    display: inline-block;
+}
+
+.fa {
+    height: 40px;
+    display: inline-block;
+
+
+}
+
+.sociais {
+    width: 300px;
+    position: absolute;
+
+
+}
+
+.in {
+    color: rgb(253, 253, 253)
+}
+
+main {
+    margin-top: -600px;
+    position: fixed;
+    z-index: 1;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 270px;
+    margin-top: 20px;
+    width: 700px;
+
+}
+
+.titulo {
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+p {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+button {
+    font-size: 23px;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+
+.imagem {
+    display: inline-block;
+    margin-left: 1000px;
+    margin-top: -600px;
+
+}
+
+img {
+    height: 340px;
+    z-index: -1;
+
+}
+
+.mascara {
+
+    background: linear-gradient(90deg, rgba(114, 9, 183, 1) 0%, rgba(189, 6, 242, 0.6839110644257703) 84%);
+    height: 900px;
+    z-index: -2;
+    width: 500px;
+    margin-left: 980px;
+    margin-top: -800px;
+    position: fixed;
+    opacity: 0.3;
+    margin-right: 0px;
+
+}
+
+header a:hover {
+    color: #7b2cbf;
+    transition: 0.5 ease-in-out;
+
+}
+
+.titulo h1:hover {
+
+    color: #7b2cbf;
+    transition: 0.5 ease-in-out;
+}
+
+button:hover {
+    background-color: #7b2cbf;
+    transition: 0.5 ease-in-out;
+    color: aliceblue;
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .menu {
+        background-color: rgb(253, 253, 253);
+        margin-left: -260px;
+    }
+
+    header {
+
+        display: none;
+    }
+
+    section {
+
+        margin-left: 10px;
+        margin-top: -160px;
+        width: 360px;
+
+    }
+
+    .titulo {
+        font-size: 23px;
+        margin-left: 40px;
+        margin-bottom: -20px;
+        margin-top: -20px;
+        width: 400px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-top: -40pxpx;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    button {
+        font-size: 22px;
+        padding: 8px;
+        margin-left: 0px;
+        margin-top: 25px;
+
+    }
+
+
+
+
+    .imagem {
+
+        margin-left: 80px;
+        margin-top: 30px;
+        display: flex;
+    }
+
+    img {
+        height: 255px;
+
+    }
+
+    .mascara {
+
+        background: linear-gradient(90deg, rgba(114, 9, 183, 1) 0%, rgba(189, 6, 242, 0.6839110644257703) 84%);
+        height: 400px;
+        width: 420px;
+        margin-left: 0px;
+        margin-top: -400px;
+        opacity: 0.7;
+
+    }
+
+    .sociais {
+        display: none;
+    }
+}
