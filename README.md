@@ -43,6 +43,6 @@ CSS, ou Cascading Style Sheets, é uma linguagem de estilo utilizada para defini
 
 <h1 id="imagem"> Imagem do projeto </h1>
 
-<img src=""alt="imagem-do-projeto">
+<img src="https://github.com/Giovana1309/desafio-css-part3/blob/main/Novo%20Projeto.png?raw=true" alt=" imagem-do-projeto">
 
 <br>
