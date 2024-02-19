@@ -7,7 +7,7 @@
 <a href="#imagem">Imagem do projeto </a><br>
 <a href="https://lojavirtualcss4.netlify.app"> Visite o site </a> <br>
 
-<h1> We Care Pet Shopping </h1>
+<h1> Crie sua loja virtual! </h1>
  
  <br>
 
